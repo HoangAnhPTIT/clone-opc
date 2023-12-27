@@ -57,7 +57,6 @@ function App() {
     }
   ]
   const [isOpen, setIsopen] = useState(false);
-  const showModal = () => setIsopen((prev) => !prev);
 
   return (
     <>
