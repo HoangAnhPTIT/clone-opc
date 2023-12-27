@@ -1,0 +1,379 @@
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+header {
+  background-color: #F4F3F0;
+
+}
+
+.top-bar {
+  width: 100%;
+  height: 31px;
+  display: flex;
+  justify-content: end;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-bottom: 1px solid #8B8B8B;
+}
+
+.top-bar-item {
+  margin-right: 14px;
+}
+
+.top-bar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  margin-left: 16px;
+  justify-content: space-between;
+}
+
+.menu>img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.menu-item {
+  display: flex;
+  gap: 14px;
+  transform: translateX(-80px);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  align-items: center;
+}
+
+.buy-button {
+  padding: 1rem 2rem;
+  background-color: #8ac93c;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border-color: rgba(0, 0, 0, .05);
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://opcpharma.com/wp-content/uploads/2023/12/bannermain_Vie-1.webp");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50%;
+}
+
+
+.info-page {
+  width: 100%;
+  height: 365px;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  line-height: 1.6;
+  background-color: #F4F3F0;
+  display: flex;
+  justify-content: center;
+}
+
+.info-page-container {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.info-item-img {
+  width: 30%;
+}
+
+.info-item-title {
+  color: rgb(0, 104, 48);
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.info-item-text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section-img {
+  background-image: url("https://opcpharma.com/wp-content/uploads/2023/12/banner-drop-1-2048x1456.webp");
+  width: 100vw;
+  height: 1352px;
+  background-position: 50% 50%;
+}
+
+.improve-info-section {
+  width: 100vw;
+  height: 500px;
+  background-color: #F5F3EF;
+  display: flex;
+  justify-content: center;
+}
+
+.improve-info {
+  display: flex;
+  width: 60vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-blue {
+  color: rgb(0, 104, 48);
+}
+
+.font-primary {
+  font-family: 'EB Garamond', serif;
+}
+
+.font-weight-5 {
+  font-weight: 500;
+}
+
+.font-weight-2 {
+  font-weight: 200;
+}
+
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-50 {
+  font-size: 70px;
+}
+
+.font-size-55 {
+  font-size: 55px;
+}
+
+
+.font-size-60 {
+  font-size: 60px;
+}
+
+.font-size-25 {
+  font-size: 25px;
+}
+
+.margin-left-40px {
+  margin-left: 40px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.improve-info-text {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 380px;
+  color: #66667D;
+  line-height: 45px;
+  font-weight: 200;
+}
+
+.section-intro {
+  width: 100%;
+  height: 1050px;
+  position: relative;
+}
+
+.section-img {
+  width: 100%;
+  height: auto;
+}
+
+.section-intro-info {
+  position: absolute;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.section-intro-info>p>span {
+  color: red;
+}
+
+.section-machine {
+  position: relative;
+}
+
+.section-machine-info {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  text-align: right;
+  width: 550px;
+
+}
+
+.section-machine-info-text {
+  padding-left: 110px;
+  font-size: 25px;
+  line-height: 40px;
+  color: #666666;
+  font-weight: 200;
+}
+
+.section-quanlity {
+  background-color: #F5F3F1;
+  margin-top: -5px;
+  text-align: center;
+}
+
+.quanlity-img {
+  width: 35%;
+}
+
+.base-text {
+  padding-left: 110px;
+  font-size: 25px;
+  line-height: 40px;
+  color: #666666;
+  font-weight: 200;
+}
+
+.quanlity-list-img {
+  display: flex;
+  justify-content: center;
+}
+
+.quanlity-list-img-container {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quanlity-list-img-container>img {
+  transform: scale(0.35);
+}
+
+.section-product {
+  display: flex;
+  justify-content: center;
+}
+
+.section-product-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.section-product-owner {
+  width: 60%;
+}
+
+.width-16rem {
+  width: 16rem;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.more-button {
+  padding: 8px 10px;
+  color: #B20000;
+  border: 1px solid #B20000;
+  border-radius: 40px;
+  width: 8rem;
+  display: inline-block;
+  margin-top: 10px
+}
+
+footer {
+  margin-top: 40px;
+  width: 100%;
+  height: 360px;
+  background-color: #006830;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.company-logo {
+  width: 70%;
+  margin-bottom: 12px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.content {
+  line-height: 30px;
+}
+
+.margin-bottom-text {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: unset;
+}
+
+.end {
+  height: 80px;
+  width: 100vw;
+  background-color: rgb(32, 41, 43);
+  color: white;
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.end-text-1 {
+  color: rgba(255, 255, 255, .5);
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+
+.end-text-2 {
+  color: #f1f1f1;
+}
